@@ -1,0 +1,14 @@
+function calculator(a, b, operator) {
+    const result= {
+        multiply: a*b,
+        divide: a/b,
+        add: a+b,
+        subtract: a-b,
+    };
+console.log(result[operator]);
+}
+
+calculator(5,5,"multiply");
+calculator(40,8,"divide");
+calculator(12,19,"add");
+calculator(50,13,"subtract");
