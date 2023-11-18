@@ -1,9 +1,9 @@
 function calculator(a, b, operator) {
     const result= {
-        multiply: a*b,
-        divide: a/b,
-        add: a+b,
-        subtract: a-b,
+        multiply: (a,b) => a*b,
+        divide: (a,b) => a/b,
+        add: (a,b) => a+b,
+        subtract:(a,b) =>  a-b,
     };
 console.log(result[operator]);
 }
